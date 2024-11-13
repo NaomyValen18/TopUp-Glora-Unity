@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header img {
+    width: 100px;
+}
+
+.header h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.header .icons i {
+    margin: 0 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content .box {
+    background-color: #3a3a3a;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.content .box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.content .box p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.content .box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.content .box .topup div,
+.content .box .membership div,
+.content .box .property div {
+    background-color: #000000;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+    min-width: 100px;
+}
+
+.reviews .rating span {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.reviews .rating i {
+    color: gold;
+}
+
+.reviews .review-list .review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a3a3a;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
